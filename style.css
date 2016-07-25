@@ -1,0 +1,9 @@
+.form {
+}
+.form__item,
+.form__button--hidden {
+  display: none;
+}
+.form__item--active {
+  display: block;
+}
