@@ -16,14 +16,14 @@ main =
 
 
 type alias Model =
-  { step            : Int
-  , name            : String
-  , age             : Int
-  , phone           : String
-  , address         : String
-  , postalCode      : String
+  { step : Int
+  , name : String
+  , age : Int
+  , phone : String
+  , address : String
+  , postalCode : String
   , medicationInput : String
-  , medications     : List Medication
+  , medications : List Medication
   }
 
 type alias Medication =
@@ -31,14 +31,14 @@ type alias Medication =
 
 model : Model
 model =
-  { step            = 1
-  , name            = ""
-  , age             = 0
-  , phone           = ""
-  , address         = ""
-  , postalCode      = ""
+  { step = 1
+  , name = ""
+  , age = 0
+  , phone = ""
+  , address = ""
+  , postalCode = ""
   , medicationInput = ""
-  , medications     = []
+  , medications = []
   }
 
 newMedication : String -> Medication
